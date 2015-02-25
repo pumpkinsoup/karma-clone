@@ -1,0 +1,187 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300);
+
+html {
+  box-sizing: border-box;
+  *, *:before, *:after {
+  box-sizing: inherit;
+  }
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+#logo {
+  position: relative;
+  top: 10px;
+  left: -180px;
+}
+body {
+  line-height: 1;
+  font-weight: 100;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.content {
+  padding: 0 15px;
+  width: 970px;
+  height: 70px;
+  margin: 0 auto; 
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+.content-intro {
+  padding-top: 5em;
+  margin-bottom: 0.1em;
+  font-size: 3.5em;
+}
+
+.content-wifi {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  letter-spacing: 0.04em;
+}
+
+.big-button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  line-width: 10px;
+  background-color: #CC6600;
+  font-size: 0.9em;
+  color: white;
+  margin:0 auto;
+  margin-top: 0.01em;
+}
+#mainNav {
+  position: fixed;
+  width:100%;
+  top: 0;
+}
+
+.big-button:hover{
+  cursor: pointer;
+  color: #333333;
+}
+
+/* Navigation Section */
+.top-navigation {
+  width: 100%;
+  z-index: 9999;
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.top-navigation .links {
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;	
+}
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.top-navigation .links > .active {
+  color: #4c5058;
+  font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+.introduction {
+  background-image: url("http://i.imgur.com/S3S3y3O.jpg?1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 45.938rem;
+}
+
+.cases {
+  background-color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  color: black;
+  font-size: 2em;
+  margin: 3em auto;
+}
+
+.cases .devices {
+  width: 330px;
+  display: inline-block;
+  /* styles to assist with debugging */
+  border: 1px white;
+  box-sizing: border-box;
+  height: 5.5em;
+  margin: 2em auto;
+  font-size: 1em;
+}
+
+.bottom .join {
+  text-align: center; 
+  margin: 20px auto;
+  font-family: Roboto;
+}
+
+.social {
+  height: 50px;
+  border-radius: 35%;
+  width: 50px;
+  padding: 0 5px;
+  margin-bottom: 5px;
+}
+
+.icons li {
+  display: inline-block;
+}
+
+hr {
+  width: 70%
+}
+
+.smaller {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.copyright {
+  text-align: center;
+  color: gray;
+  padding: 10px;
+}
+
+
+
+
+
+
+
